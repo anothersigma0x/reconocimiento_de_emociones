@@ -1,4 +1,5 @@
-#Reconocimiento de Emociones 
+
+# Reconocimiento de Emociones 
 
 ¡Bienvenido a Reconocimiento de Emociones! Aquí, la tecnología se encuentra con el corazón de un parque temático. Cada sonrisa, cada sorpresa, atrapadas y transformadas en historias que puedes tocar.
 ¿De qué trata?
