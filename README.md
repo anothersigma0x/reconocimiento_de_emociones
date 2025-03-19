@@ -1,4 +1,4 @@
-
+![Banner](https://github.com/anothersigma0x/reconocimiento_de_emociones/blob/main/minis%20drop.jpg)
 # Reconocimiento de Emociones 
 
 ¡Bienvenido a Reconocimiento de Emociones! Aquí, la tecnología se encuentra con el corazón de un parque temático. Cada sonrisa, cada sorpresa, atrapadas y transformadas en historias que puedes tocar.
