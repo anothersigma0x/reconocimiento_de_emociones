@@ -114,7 +114,7 @@ El proyecto combina herramientas como Python, MySQL, y Power BI para abordar pre
 - **Datos**: Imágenes y JSON proporcionados por Pontia World (almacenados localmente).
 
 ### Instalación
- Clona el repositorio:
+1. Clona el repositorio:
    ```bash
    git clone <url-del-repositorio>
    cd pontia-ml
