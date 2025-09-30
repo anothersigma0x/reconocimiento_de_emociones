@@ -1,5 +1,5 @@
 ![Banner](https://github.com/anothersigma0x/reconocimiento_de_emociones/blob/main/BANNER.jpg)
-# Proyecto Júpiter - Reconocimiento de Emociones
+# Proyecto Júpiter - Reconocimiento de Emociones - PontIA - Pontia World
 
 ## Descripción
 El proyecto **Júpiter**, desarrollado como parte de un Máster en Data Science, tiene como objetivo aplicar técnicas de análisis de datos y ciencia de datos para mejorar la experiencia de los visitantes en los parques temáticos de la empresa ficticia **Pontia World**. El proyecto se centra en automatizar el reconocimiento de emociones en imágenes faciales (48x48 píxeles en blanco y negro) capturadas en las atracciones, junto con una transformación digital de la gestión de datos. Las etapas principales incluyen:
