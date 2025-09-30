@@ -1,0 +1,82 @@
+#######################################################################
+#Creación de la base de datos
+#######################################################################
+
+# Empezamos eliminando la database en caso de que exista:
+DROP DATABASE IF EXISTS pontia_world;
+
+# Crear una base de datos llamada pontia_world y meternos en ella:
+CREATE DATABASE IF NOT EXISTS pontia_world;
+
+USE pontia_world;
+
+#######################################################################
+#Creación de las tablas
+#######################################################################
+#Creamos las tablas sin Foreign Key porque sino no deja la importación de los csv:
+
+-- Crear la tabla central: Ticket_Atracciones
+DROP TABLE IF EXISTS ticket_atracciones;
+CREATE TABLE IF NOT EXISTS ticket_atracciones (
+    t_id VARCHAR(100) PRIMARY KEY,
+    atraccion VARCHAR(100) NOT NULL,
+    tiempo_de_espera SMALLINT, #debería ser not null
+    id_visitante SMALLINT NOT NULL,
+    comienzo_atraccion_fecha_hora DATETIME NOT NULL,
+    antelacion_de_compra SMALLINT NOT NULL,
+    coste DECIMAL(6,2) NOT NULL,
+    tipo_entrada VARCHAR(100) NOT NULL
+);
+
+-- Crear la tabla Valoraciones_Emociones
+DROP TABLE IF EXISTS valoraciones_emociones;
+CREATE TABLE IF NOT EXISTS valoraciones_emociones (
+    t_id VARCHAR(100) PRIMARY KEY,
+    emocion VARCHAR(100) NOT NULL,
+    fecha_hora DATETIME NOT NULL,
+    valoracion TINYINT NOT NULL
+);
+
+-- Crear la tabla Procedencia
+DROP TABLE IF EXISTS procedencia;
+CREATE TABLE IF NOT EXISTS procedencia (
+    t_id VARCHAR(100) PRIMARY KEY,
+    procedencia VARCHAR(100) NOT NULL,
+    id_visitante SMALLINT NOT NULL
+);
+
+-- Crear la tabla Duración
+DROP TABLE IF EXISTS duracion;
+CREATE TABLE IF NOT EXISTS duracion (
+    t_id VARCHAR(100) PRIMARY KEY,
+    id_visitante SMALLINT NOT NULL,
+    duracion SMALLINT
+);
+
+#######################################################################
+#Importación de tablas y comprobación
+#######################################################################
+
+#COMENTARIO SOLO INÉS: Tuve que pasar a la codificación latin1 / ISO-8859-1 los csv de "procedencia" y "ticket_atracciones"
+
+#Tras importar las tablas a través de "Table data import wizard", comprobamos que podemos verlas correctamente:
+SELECT * FROM duracion;
+SELECT * FROM valoraciones_emociones;
+SELECT * FROM procedencia;
+SELECT * FROM ticket_atracciones;
+
+#######################################################################
+#Alteramos las tablas con la Foreign Keys
+#######################################################################
+
+ALTER TABLE valoraciones_emociones
+ADD CONSTRAINT fk_t_id_valoraciones_emociones
+FOREIGN KEY (t_id) REFERENCES ticket_atracciones(t_id);
+
+ALTER TABLE procedencia
+ADD CONSTRAINT fk_t_id_procedencia
+FOREIGN KEY (t_id) REFERENCES ticket_atracciones(t_id);
+
+ALTER TABLE duracion
+ADD CONSTRAINT fk_t_id_duracion
+FOREIGN KEY (t_id) REFERENCES ticket_atracciones(t_id);
