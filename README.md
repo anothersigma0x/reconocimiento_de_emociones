@@ -179,12 +179,12 @@ Screenshots
 <img src="screenshots/dashboard.png" alt="Dashboard de Power BI">: Muestra los KPIs y visuales del dashboard.
 <img src="screenshots/confusion_matrix.png" alt="Matriz de Confusión">: Representa la matriz de confusión del modelo CNN en el conjunto de test.
 
-Contribuyentes
+### Contribuyentes
 
-### [Anamaria Turdas]: [Rol: ETL, SQL, CNN, ML, PowerBi, Leadership].
+### Anamaria Turdas: Rol: ETL, SQL, CNN, ML, PowerBi, Leadership.
 
-### [William Ganem]: [Rol: ETL, SQL, CNN, ML, PowerBi].
+### William Ganem: Rol: ETL, SQL, CNN, ML, PowerBi.
 
-### [Ines Benito]: [Rol: ETL, SQL, ML, PowerBi].
+### Ines Benito: Rol: ETL, SQL, ML, PowerBi.
 
-### [Iñigo Ugidos]: [Rol: ETL, SQL, ML].
+### Iñigo Ugidos: [ol: ETL, SQL, ML.
