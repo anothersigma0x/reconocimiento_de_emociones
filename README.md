@@ -181,6 +181,7 @@ Screenshots
 
 Contribuyentes
 
-[Nombre del integrante 1]: [Rol, e.g., ETL y CNN].
-[Nombre del integrante 2]: [Rol, e.g., MySQL y Power BI].
-.
+[Anamaria Turdas]: [Rol: ETL, SQL, CNN, ML, PowerBi, Leadership].
+[William Ganem]: [Rol: ETL, SQL, CNN, ML, PowerBi].
+[Ines Benito]: [Rol: ETL, SQL, ML, PowerBi].
+[Iñigo Ugidos]: [Rol: ETL, SQL, ML].
