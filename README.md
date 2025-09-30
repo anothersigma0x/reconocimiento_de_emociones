@@ -183,4 +183,4 @@ Contribuyentes
 
 [Nombre del integrante 1]: [Rol, e.g., ETL y CNN].
 [Nombre del integrante 2]: [Rol, e.g., MySQL y Power BI].
-(Añade los nombres y roles de los miembros del equipo aquí).
+.
