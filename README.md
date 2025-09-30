@@ -65,8 +65,8 @@ El proyecto combina herramientas como Python, MySQL, y Power BI para abordar pre
 - **Dashboard**:
   - **KPIs** (tarjetas): Media diaria de visitantes (~1,045), total de visitantes (32,137), recaudación total (609,456 €), media de valoración (4.98), atracción más visitada ("desconocida").
   - **Visuales**:
-    - Gráfico de barras: Emociones por atracción (proporcional a conteos).
-    - Gráfico de barras: Media de valoración por atracción (tamaño por número de valoraciones).
+    - Gráfico de barras: Recuento de emociones.
+    - Gráfico de lineas: Tiempo de espera por valoración.
     - Mapa: Procedencia de visitantes (concentración en Europa y América del Sur).
     - Slicer: Filtro por día del mes (1-30).
   - **Insights**:
@@ -114,7 +114,7 @@ El proyecto combina herramientas como Python, MySQL, y Power BI para abordar pre
 - **Datos**: Imágenes y JSON proporcionados por Pontia World (almacenados localmente).
 
 ### Instalación
-1. Clona el repositorio:
+ Clona el repositorio:
    ```bash
    git clone <url-del-repositorio>
    cd pontia-ml
@@ -148,7 +148,8 @@ Modelo CNN (reconocimiento de emociones):
 Test: Accuracy 63.11%, Macro F1-score 0.5873.
 Mejor desempeño en happy (F1: 0.8474, recall: 82.19%) y surprise (F1: 0.7630, recall: 80.99%).
 Peor desempeño en fear (F1: 0.3563, recall: 25.98%) y disgust (F1: 0.4821).
-Comparación: Ensamble (α=0.25) logró mejor accuracy (64.54%) y Macro F1 (0.6237) que la CNN sola.
+
+### Comparación: Ensamble (α=0.25) logró mejor accuracy (64.54%) y Macro F1 (0.6237) que la CNN sola.
 
 
 ### KPIs de Negocio (Power BI):
@@ -161,10 +162,6 @@ Emoción más frecuente por atracción: "happy" (60%), "neutral" (20%), "fear" (
 Procedencia: 40% de visitantes de España.
 
 
-Consultas SQL: 
-Respondidas preguntas de negocio, como atracciones más/menos visitadas, tiempos de espera máximos, y valoraciones promedio por atracción.
-
-
 ### Desafíos Enfrentados:
 
 Desbalanceo de clases: Clases como disgust (pocos datos) y fear fueron difíciles de predecir, requiriendo pesos de clase y data augmentation.
@@ -173,10 +170,10 @@ Datos erróneos: Valores negativos en tiempos de espera y precios corregidos dur
 Rendimiento del modelo: Dificultad para mejorar la precisión en emociones ambiguas (fear, sad) debido a confusiones en la matriz de confusión.
 
 
+### DASHBOARD
 
-Screenshots
+<img src="https://github.com/anothersigma0x/reconocimiento_de_emociones/blob/main/Dashboard.png" alt="Dashboard de Power BI"> 
 
-<img src="https://github.com/anothersigma0x/reconocimiento_de_emociones/blob/main/Dashboard.png" alt="Dashboard de Power BI">: Muestra los KPIs y visuales del dashboard.
 
 ### Contribuyentes
 
