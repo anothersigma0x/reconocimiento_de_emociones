@@ -1,4 +1,4 @@
-![Banner](https://github.com/anothersigma0x/reconocimiento_de_emociones/blob/main/minis%20drop.jpg)
+![Banner](https://github.com/anothersigma0x/reconocimiento_de_emociones/blob/main/BANNER.jpg)
 # Proyecto Júpiter - Reconocimiento de Emociones
 
 ## Descripción
