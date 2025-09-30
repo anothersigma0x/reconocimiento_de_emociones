@@ -181,6 +181,6 @@ Rendimiento del modelo: Dificultad para mejorar la precisión en emociones ambig
 
 ### William Ganem: Rol: ETL, SQL, CNN, ML, PowerBi.
 
-### Ines Benito: Rol: ETL, SQL, ML, PowerBi.
+### Ines Benito: Rol: ETL, SQL, CNN, ML, PowerBi.
 
-### Iñigo Ugidos: [ol: ETL, SQL, ML.
+### Iñigo Ugidos: Rol: ETL, SQL, ML.
