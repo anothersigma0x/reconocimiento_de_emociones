@@ -176,8 +176,7 @@ Rendimiento del modelo: Dificultad para mejorar la precisión en emociones ambig
 
 Screenshots
 
-<img src="screenshots/dashboard.png" alt="Dashboard de Power BI">: Muestra los KPIs y visuales del dashboard.
-<img src="screenshots/confusion_matrix.png" alt="Matriz de Confusión">: Representa la matriz de confusión del modelo CNN en el conjunto de test.
+<img src="https://github.com/anothersigma0x/reconocimiento_de_emociones/blob/main/Dashboard.png" alt="Dashboard de Power BI">: Muestra los KPIs y visuales del dashboard.
 
 ### Contribuyentes
 
