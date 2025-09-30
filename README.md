@@ -181,7 +181,10 @@ Screenshots
 
 Contribuyentes
 
-[Anamaria Turdas]: [Rol: ETL, SQL, CNN, ML, PowerBi, Leadership].
-[William Ganem]: [Rol: ETL, SQL, CNN, ML, PowerBi].
-[Ines Benito]: [Rol: ETL, SQL, ML, PowerBi].
-[Iñigo Ugidos]: [Rol: ETL, SQL, ML].
+### [Anamaria Turdas]: [Rol: ETL, SQL, CNN, ML, PowerBi, Leadership].
+
+### [William Ganem]: [Rol: ETL, SQL, CNN, ML, PowerBi].
+
+### [Ines Benito]: [Rol: ETL, SQL, ML, PowerBi].
+
+### [Iñigo Ugidos]: [Rol: ETL, SQL, ML].
