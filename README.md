@@ -137,8 +137,9 @@ Conecta a la base de datos pontia_world usando el conector MySQL.
 
 Asegúrate de tener los datos (imágenes y JSON) en el directorio local especificado en los scripts.
 
-Nota: Los datos no están en un repositorio público. Contacta al equipo del proyecto para obtener acceso.
-Resultados y Evaluación
+### Nota: Los datos no están en un repositorio público. Contacta al equipo del proyecto para obtener acceso.
+
+### Resultados y Evaluación
 
 Métricas Principales:
 
@@ -150,7 +151,7 @@ Peor desempeño en fear (F1: 0.3563, recall: 25.98%) y disgust (F1: 0.4821).
 Comparación: Ensamble (α=0.25) logró mejor accuracy (64.54%) y Macro F1 (0.6237) que la CNN sola.
 
 
-KPIs de Negocio (Power BI):
+### KPIs de Negocio (Power BI):
 
 Media diaria de visitantes: ~1,045.
 Total de visitantes: 32,137.
@@ -160,10 +161,11 @@ Emoción más frecuente por atracción: "happy" (60%), "neutral" (20%), "fear" (
 Procedencia: 40% de visitantes de España.
 
 
-Consultas SQL: Respondidas preguntas de negocio, como atracciones más/menos visitadas, tiempos de espera máximos, y valoraciones promedio por atracción.
+Consultas SQL: 
+Respondidas preguntas de negocio, como atracciones más/menos visitadas, tiempos de espera máximos, y valoraciones promedio por atracción.
 
 
-Desafíos Enfrentados:
+### Desafíos Enfrentados:
 
 Desbalanceo de clases: Clases como disgust (pocos datos) y fear fueron difíciles de predecir, requiriendo pesos de clase y data augmentation.
 Valores nulos: ~3% de atracciones imputadas como "desconocida", afectando análisis inicial; emociones nulas imputadas como "emoción desconocida".
