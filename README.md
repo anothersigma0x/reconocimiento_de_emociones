@@ -1,4 +1,4 @@
-![Banner](https://github.com/anothersigma0x/reconocimiento_de_emociones/blob/main/BANNER.jpg)
+![Banner](https://raw.githubusercontent.com/anothersigma0x/reconocimiento_de_emociones/main/BANNER.jpg)
 # Proyecto Júpiter - Reconocimiento de Emociones - PontIA - Pontia World
 
 ## Descripción
@@ -172,7 +172,7 @@ Rendimiento del modelo: Dificultad para mejorar la precisión en emociones ambig
 
 ### DASHBOARD
 
-<img src="https://github.com/anothersigma0x/reconocimiento_de_emociones/blob/main/Dashboard.png" alt="Dashboard de Power BI"> 
+<img src="https://raw.githubusercontent.com/anothersigma0x/reconocimiento_de_emociones/main/Dashboard.png" alt="Dashboard de Power BI"> 
 
 
 ### Contribuyentes
