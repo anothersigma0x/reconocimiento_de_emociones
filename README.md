@@ -172,7 +172,7 @@ Rendimiento del modelo: Dificultad para mejorar la precisión en emociones ambig
 
 ### DASHBOARD
 
-<img src="https://raw.githubusercontent.com/anothersigma0x/reconocimiento_de_emociones/main/Dashboar.png" alt="Dashboard de Power BI"> 
+<img src="https://raw.githubusercontent.com/anothersigma0x/reconocimiento_de_emociones/main/Dashboard.png" alt="Dashboard de Power BI"> 
 
 
 ### Contribuyentes
