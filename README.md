@@ -137,7 +137,7 @@ Conecta a la base de datos pontia_world usando el conector MySQL.
 
 Asegúrate de tener los datos (imágenes y JSON) en el directorio local especificado en los scripts.
 
-### Nota: Los datos no están en un repositorio público. Contacta al equipo del proyecto para obtener acceso.
+### Nota: Los datos para la CNN no están en un repositorio público. Contacta al equipo del proyecto para obtener acceso.
 
 ### Resultados y Evaluación
 
